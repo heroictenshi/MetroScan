@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MetroScan</string>
+    <string name="usernameFieldHint">Username</string>
+    <string name="passwordFieldHint">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="reloadBalanceButton">Reload Balance</string>
+    <string name="accountInfoButton">Account Info</string>
+    <string name="addBalanceDialogTitle">Select an amount to reload</string>
 </resources>

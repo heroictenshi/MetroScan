@@ -1,29 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
+              android:padding="10dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
         >
 
     <EditText
-            android:id="@+id/username"
+            android:id="@+id/usernameField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Username"
+            android:padding="10dp"
+            android:hint="@string/usernameFieldHint"
+            android:inputType="textNoSuggestions"
             />
 
     <EditText
-            android:id="@+id/password"
+            android:id="@+id/passwordField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="@string/passwordFieldHint"
             android:inputType="textPassword"
-            android:hint="Password"
             />
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Login"
-            android:onClick="login"/>
 
+    <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/loginButton"
+            android:onClick="login"
+            />
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher"
+            android:padding="80dp"
+            />
 </LinearLayout>
 

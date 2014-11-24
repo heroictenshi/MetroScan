@@ -4,10 +4,34 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-
     <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/mainUsernameDisplay"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="You are now logged in."/>
+            />
+    <TextView
+            android:id="@+id/mainBalanceDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+    <Button
+            android:id="@+id/reloadBalanceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/reloadBalanceButton"
+            android:onClick="reloadBalanceButton"
+            />
 
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher"
+            android:padding="90dp"
+            />
 </LinearLayout>
